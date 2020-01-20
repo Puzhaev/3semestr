@@ -18,4 +18,4 @@ class Apple:
         self.y_pos = random.randint(Config['front'], Config['h_g'] - Config['front'] - Config['h_a'])
 
     def draw(self):
-        return pygame.draw.rect( self.display, Config ['col_r'], [ self.x_pos, self.y_pos, Config['h_a'], Config['w_a'] ] )
+        return pygame.draw.rect( self.display, Config ['col_dark'], [ self.x_pos, self.y_pos, Config['h_a'], Config['w_a'] ] )

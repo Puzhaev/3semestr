@@ -9,7 +9,7 @@ class Snake ( GameObject ):
         self.size += 1
     def draw(self):
         for i in range(len(self.body)):
-            tmp_rect = pygame.draw.rect(self.display, Config['col_g'], [ self.body[i][0], self.body[i][1], Config['w_s'], Config['h_s'] ])
+            tmp_rect = pygame.draw.rect(self.display, Config['col_dark'], [ self.body[i][0], self.body[i][1], Config['w_s'], Config['h_s'] ])
         return tmp_rect
 
 

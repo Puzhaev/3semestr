@@ -12,7 +12,7 @@ pygame.display.set_caption('Project 3 semester by Iliya Puzhaev')
 
 game = Game(display)
 
-game.loop()
+game.start_screen()
 
 
 
